@@ -102,6 +102,18 @@ export default {
           </div>
          </div>
        </section>
+       <section>
+         <div class="homevideo col-12">
+            <div  class="col-8 offset-2 text-center p-5">
+               <video class="video-player back-video"  preload="auto" autoplay="autoplay" loop muted playsinline>
+               <source
+                src='/barbervideo.mp4' 
+                type="video/mp4"
+              />
+              </video>
+            </div>
+         </div>
+       </section>
        
     </body>
     
@@ -186,5 +198,13 @@ export default {
 .cuthometext2{
   padding-top: 100px;
   padding-bottom: 200px;
+}
+
+.homevideo{
+  background-color: #212529;
+}
+
+.homevideo video{
+  width: 100%;
 }
 </style>
