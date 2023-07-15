@@ -20,7 +20,15 @@ export default {
       this.parallaxStyle = `background-position: center ${scrollTop * 0.3}px;`;
     },
   },
+
+  
 };
+
+
+
+
+
+
 
 
 
@@ -48,12 +56,10 @@ export default {
                       <a href="">PRENOTA</a>
                 
                </div>
-               <div>
-                
-               </div>
+               
               </div>
             </nav>
-                <div class="jumbohome text-center">
+                <div class="jumbohome text-center d-flex align-items-center justify-content-center">
                    <div class="d-flex flex-column align-items-center justify-content-center">
                       <h1>CUT, SHAVE, TRIM</h1>
                       <button class="p-3">PRENOTA</button>
@@ -163,6 +169,7 @@ export default {
 
 .jumbohome{
   width: 100%;
+  height: 65vh;
   
 }
 
@@ -213,4 +220,6 @@ export default {
 .homevideo video{
   width: 100%;
 }
+
+
 </style>
