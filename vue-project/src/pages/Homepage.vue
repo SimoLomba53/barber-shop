@@ -114,6 +114,12 @@ export default {
             </div>
          </div>
        </section>
+        <footer>
+          <div>
+
+          </div>
+        </footer>
+       
        
     </body>
     
