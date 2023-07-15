@@ -1,0 +1,445 @@
+@import './base.css';
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Space Grotesk', sans-serif;
+  
+  
+
+}
+
+body{
+  height: 100vh;
+  background: transparent;
+}
+
+.hero{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding:0 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px 2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul{
+  padding-left: 0;
+}
+
+nav .logo{
+  width: 80px;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  
+
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+
+}
+
+.content{
+  text-align: center;
+  z-index: 1;
+  
+  
+}
+
+.content h1{
+  font-size: 160px;
+  color: #fcfbfd;
+  transition: 0.5s;
+  margin-bottom: -30px;
+
+}
+
+.content h2 {
+  font-size: 30px;
+  color: #fcfbfd;
+
+  
+}
+
+.content h1:hover {
+  -webkit-text-stroke: 2px #fcfbfd;
+  color: transparent;
+
+}
+
+.explorebutton{
+  text-decoration: none;
+  display: inline-block;
+  color: #fcfbfd;
+  font-size: 24px;
+  border: 2px solid #fcfbfd;
+  padding: 14px 70px;
+  border-radius: 50px;
+  margin-top: 20px;
+  transition: 1s;
+  
+}
+
+.explorebutton:hover {
+  background-color: #fcfbfd;
+  color: white;
+  transform: scale(1.2);
+}
+
+.back-video{
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index:0;
+  object-fit: cover;
+  width:100%;
+  height: 100%;
+}
+
+.back-video1{
+  display: none;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.logo{
+  width: 100px;
+  position: absolute;
+  bottom:10px;
+  left:20px
+  
+}
+
+.logo2 {
+  width: 100px;
+  position: fixed;
+  bottom: 10px;
+  left: 20px
+}
+
+.projectnavbar{
+  margin-bottom: 75px;
+}
+
+ .infotextcont {
+   padding-top: 150px;
+   background-color: #fcfbfd;
+
+
+ }
+
+ .firstinfotext {
+   font-size: 80px;
+ }
+
+ .backcolor {
+   background-color: #fcfbfd;
+ }
+
+ .infobody {
+   background-color: #fcfbfd;
+ }
+
+
+
+ .secondinfotext {
+   font-size: 19px;
+ }
+
+@media(min-aspect-ratio:16/9){
+  .back-video{
+    height: 100%;
+  }
+}
+
+/* HOMEPAGE MEDIAQUERY  */
+
+@media only screen and (max-width: 1571px) {
+  .content h1{
+    font-size: 130px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .content h1 {
+    font-size: 110px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .content h1 {
+    font-size: 90px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .content h1 {
+    font-size: 80px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .content h1 {
+    font-size: 70px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .content h1 {
+    font-size: 58px;
+  }
+
+  .content h2{
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .content h1 {
+    font-size: 48px;
+  }
+
+  .content h2 {
+      font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 507px) {
+  .content h1 {
+    font-size: 40px;
+  }
+
+    .content h2 {
+      font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 443px) {
+  .content h1 {
+    font-size: 35px;
+  }
+
+  .content h2 {
+       font-size: 14px;
+  }
+}
+
+/* PROJECT LIST MEDIAQUERY */
+
+@media only screen and (max-width: 1385px) {
+  .firstext{
+    font-size: 60px;
+    margin-right: 178px !important;
+  }
+
+  .secondtext{
+    font-size: 60px;
+  }
+}
+
+@media only screen and (max-width: 1011px) {
+  .firstext {
+    font-size: 54px;
+    margin-right: 158px !important;
+  }
+
+  .secondtext {
+    font-size: 54px;
+  }
+}
+
+@media only screen and (max-width: 925px) {
+  .firstext {
+    font-size: 48px;
+    margin-right: 143px !important;
+  }
+
+  .secondtext {
+    font-size: 48px;
+  }
+}
+
+@media only screen and (max-width: 839px) {
+  .firstext {
+    font-size: 44px;
+    margin-right: 130px !important;
+  }
+
+  .secondtext {
+    font-size: 44px;
+  }
+}
+
+@media only screen and (max-width: 759px) {
+  .firstext {
+    font-size: 40px;
+    margin-right: 118px !important;
+  }
+
+  .secondtext {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 693px) {
+  .firstext {
+    font-size: 35px;
+    margin-right: 104px !important;
+  }
+
+  .secondtext {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .firstext {
+    font-size: 32px;
+    margin-right: 96px !important; 
+  }
+
+  .secondtext {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .firstext {
+    font-size: 32px;
+    margin-right: 96px !important;
+  }
+
+  .secondtext {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (max-width: 549px) {
+  .firstext {
+    font-size: 28px;
+    margin-right: 84px !important;
+  }
+
+  .secondtext {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 473px) {
+  .firstext {
+    font-size: 25px;
+    margin-right: 75px !important;
+  }
+
+  .secondtext {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 429px) {
+  .firstext {
+    font-size: 22px;
+    margin-right: 66px !important;
+  }
+
+  .secondtext {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 379px) {
+  .firstext {
+    font-size: 18px;
+    margin-right: 55px !important;
+  }
+
+  .secondtext {
+    font-size: 18px;
+  }
+}
+
+
+/* LOGO*/
+
+@media only screen and (max-width: 896px) {
+  .logo{
+    width: 70px;
+    position: absolute;
+    left: 5px;
+  }
+
+  .logo2 {
+          width: 70px;
+            position: fixed;
+            bottom: 10px;
+            left: 5px;
+  }
+}
+
+/*CHANGE VIDEO*/
+
+/*@media only screen and (max-width: 896px) {
+ .back-video{
+    display: none;
+    z-index:-20;
+    object-fit: none;
+ }
+
+ .back-video1{
+   display: block;
+ }
+
+
+}*/
+
+/*INFO MEDIAQUERY*/
+
+@media only screen and (max-width: 500px) {
+  .firstinfotext{
+    font-size: 65px;
+  }
+
+
+}
+
+@media only screen and (max-width: 400px) {
+  .firstinfotext {
+    font-size: 55px;
+  }
+
+
+}
+
+@media only screen and (max-width: 365px) {
+  .firstinfotext {
+    font-size: 45px;
+  }
+
+
+}
