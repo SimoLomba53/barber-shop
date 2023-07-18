@@ -4,83 +4,131 @@ AOS.init();
 </script>
 
 <template>
-    <body>
-        <div class="projectnavbar">
-            <nav>
-                <ul>
-                    <li>
-                        <router-link class="text-dark" :to="{ name: 'Homepage' }">
-                                HOMEPAGE
-                        </router-link>
-                    </li>
-                </ul>
-
-                <ul>
-                    <li>
-                      <router-link class="text-dark" :to="{ name: 'Info' }">
-                       INFO
+    
+       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <body>
+           <div class="parallax-container-tagli">
+            <div class="parallax-tagli" :style="parallaxStyle"></div>
+             <div class="content-tagli">
+                <nav>
+                  <div class="navbar d-flex flex-row align-items-center p-5">
+                   <div>
+                      <router-link class="text-dark" :to="{ name: 'Homepage' }">
+                          <img src="/barberlogowhite.png" alt="" style="width: 100px;">
                       </router-link>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        <h1 class="text-center mb-2"><span class="droptitle">DROPBOX</span> WEBSITE REMAKE</h1>
-        <div class="d-flex flex-column justify-content-center align-items-center">
+                   </div>
+                   <div class="d-flex flex-row gap-5 text-center">
+                
+                          <router-link class="text-dark" :to="{ name: 'Tagli' }">
+                              <a href="">TAGLI</a>
+                          </router-link>
+                          <router-link class="text-dark" :to="{ name: 'ShopPage' }">
+                              <a href="">SHOP</a>
+                        </router-link>
+                        <router-link class="text-dark" :to="{ name: 'Info' }">
+                            <a href="">PRENOTA</a>
+                        </router-link>
+                      
+                
+                   </div>
+               
+                  </div>
+                </nav>
+                    <div class="jumbotagli text-center d-flex align-items-center justify-content-center">
+                       <div class="d-flex flex-column align-items-center justify-content-center">
+                      
+                        <h1>I NOSTRI TAGLI</h1>
+                          
+                       </div>
+                       <div>
 
-            <div id="carouselExampleControls" class="carousel slide col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10 p-3" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="/dropbox1.png" class="d-block w-100" alt="...">
+                       </div>
                     </div>
-                    <div class="carousel-item">
-                        <img src="/dropbox2.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="/dropbox3.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                            <img src="/dropbox4.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                            <img src="/dropbox5.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                            <img src="/dropbox6.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                            <img src="/dropbox7.png" class="d-block w-100" alt="...">
-                    </div>
+             </div>
+           </div>
+
+           <section>
+             
+               <div class="introhome bg-dark col-12">
+                <div class="col-8 offset-2 text-center p-5">
+                 <img src="/barberlogowhite.png" alt="" style="width: 100px;">
+                 <p>LA QUALITA' E' IL NOSTRO PUNTO DI FORZA!</p>
+                 <p class="infohomedescription">
+                 Nel nostro salone di parrucchieri, la qualità e la perfezione dei tagli sono alla base di tutto ciò che facciamo. Il nostro team di esperti parrucchieri ha una profonda conoscenza delle ultime tendenze e tecniche di taglio, unita a una grande passione per l'arte dell'hairstyling.
+
+    Ogni taglio viene eseguito con una precisione meticolosa, tenendo conto della forma del viso, della texture dei capelli e delle vostre preferenze personali. Utilizziamo solo strumenti di alta qualità e prodotti professionali per garantire risultati impeccabili. Ogni dettaglio, dalle linee perfettamente definite alle sfumature fluide, viene curato con cura per creare un look unico e su misura per ogni cliente.
+
+                 </p>
+                 <img src="firma.png" alt="" style="width:250px;">
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-            <div class="col-10 text-center p-1">
-                <p>Il progetto è stato realizzato per il corso intensivo di sviluppo web di <span
-                        class="text-success">Boolean.</span></p>
-                <p>Esso consiste nel ricreare,in ogni minimo dettaglio,la parte estetica del sito web di DropBox,un servizio
-                    di file hosting gestito dalla società californiana Dropbox Inc., che offre cloud storage,
-                    sincronizzazione automatica dei file, cloud personale e software client.</p>
-                <p>L'obiettivo del progetto era affinare le proprie capacità grafiche e visive,individuando i tratti
-                    particolari del sito e replicandopli utilizzando le tecnologie di HTML e CSS.</p>
-            </div>
-        </div>
-        <div>
-            <img class="logo2" src="/blacklogo.png" alt="">
-        </div>
-
-    </body>
+             
+             </div>
+           </section>
+           <section>
+              <div class="col-12">
+                 <div class="col-4">
+                    <video src=""></video>
+                 </div>
+              </div>
+           </section>
+        </body>
+    
 </template>
 
 <style>
 .droptitle{
     color: #b4d0e7;
+}
+
+.parallax-container-tagli {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.parallax-tagli {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url('/taglijumbo.jpg'); /* Inserisci il percorso dell'immagine di sfondo */
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.content-tagli {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  color: #ffffff;
+}
+
+.navbar{
+  width: 100%;
+  
+}
+
+.navbar a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.jumbotagli{
+  width: 100%;
+  height: 65vh;
+  
+}
+
+.jumbotagli h1{
+  font-size: 170px;
+}
+
+.jumbotagli button{
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
 }
 </style>

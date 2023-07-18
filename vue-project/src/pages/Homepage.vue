@@ -81,9 +81,9 @@ export default {
          <div class="introhome bg-dark col-12">
             <div class="col-8 offset-2 text-center p-5">
              <img src="/barberlogowhite.png" alt="" style="width: 100px;">
-             <p>A NOTE FROM THE FOUNDERS:</p>
+             <p>SEI NEL POSTO GIUSTO:</p>
              <p class="infohomedescription">
-              10 years ago we set out to build a concept; a bar, barbershop and product line with one goal in mind: to make you feel like like the best you. Over the course of those years, the honest conversations, cold beers, top-of-the-game pomades and quick trims are all, undoubtedly, part of the process. The physical transformation happens to your hair, but the real result is feeling like the best version of yourself, looking into that mirror and saying “there I am”.
+             Benvenuti nel nostro salone esclusivo, dove l'arte dell'hairstyling si fonde con trattamenti professionali per la pelle e il viso. Il nostri talentuosi barbieri sono maestri nell'arte del taglio di capelli con decorazioni creative, e sono capaci di creare look personalizzati che riflettono la vostra personalità. Inoltre, offriamo trattamenti per la pelle di alta qualità, utilizzando prodotti e tecniche all'avanguardia per un risultato impeccabile. Il nostro ambiente accogliente e rilassante vi farà sentire a vostro agio, mentre i nostri professionisti si prenderanno cura di voi con professionalità e attenzione. Ogni visita al nostro salone è un'esperienza indulgente, dove potrete rilassarvi e prendervi cura del vostro aspetto con stile. Siamo qui per offrirvi un servizio eccellente che vi farà sentire e apparire al meglio, regalandovi un look impeccabile e una pelle radiosa.
              </p>
              <img src="firma.png" alt="" style="width:250px;">
             </div>
