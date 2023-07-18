@@ -44,17 +44,22 @@ export default {
             <nav>
               <div class="navbar d-flex flex-row align-items-center p-5">
                <div>
-                  <router-link class="text-dark" :to="{ name: 'Info' }">
+                  <router-link class="text-dark" :to="{ name: 'Homepage' }">
                       <img src="/barberlogowhite.png" alt="" style="width: 100px;">
                   </router-link>
                </div>
                <div class="d-flex flex-row gap-5 text-center">
                 
-                      <a href="">TAGLI</a>
-                
-                      <a href="">LO SHOP</a>
-               
-                      <a href="">PRENOTA</a>
+                      <router-link class="text-dark" :to="{ name: 'Tagli' }">
+                          <a href="">TAGLI</a>
+                      </router-link>
+                      <router-link class="text-dark" :to="{ name: 'ShopPage' }">
+                          <a href="">SHOP</a>
+                    </router-link>
+                    <router-link class="text-dark" :to="{ name: 'Info' }">
+                        <a href="">PRENOTA</a>
+                    </router-link>
+                      
                 
                </div>
                
@@ -62,7 +67,8 @@ export default {
             </nav>
                 <div class="jumbohome text-center d-flex align-items-center justify-content-center">
                    <div class="d-flex flex-column align-items-center justify-content-center">
-                      <h1>CUT, SHAVE, TRIM</h1>
+                      
+                    <h1>HASSAN BARBER SHOP</h1>
                       <button class="p-3">PRENOTA</button>
                    </div>
                    <div>
@@ -114,7 +120,7 @@ export default {
             <div  class="col-8 offset-2 text-center p-5">
                <video class="video-player back-video"  preload="auto" autoplay="autoplay" loop muted playsinline>
                <source
-                src='/barbervideo.mp4' 
+                src='/hassanvideo.mp4' 
                 type="video/mp4"
               />
               </video>
@@ -260,7 +266,7 @@ export default {
   background-image: url('/barber1.jpg'); /* Inserisci il percorso dell'immagine di sfondo */
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  
 }
 
 .content {
