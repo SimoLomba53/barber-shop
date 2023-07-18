@@ -58,7 +58,7 @@ AOS.init();
                 <p class="">Lo shop è facilissimo da raggiungere sia in automobile che con i mezzi pubblici.</p>
                 <p class="">Si trova a 200 metri dalla fermata della metropolitana "Italia 61" e a 10 minuti a piedi dalla stazione ferroviaria Torino Lingotto.</p>
                 <p class="">In automobile dista solamente 10 minuti dal puro centro della citta di Torino.</p>
-                <p class="contactslogan">Dona nuova vita ai tuoi da Hassan Barber Shop, dove ogni taglio è un capolavoro su misura! </p>
+                <p class="contactslogan">Dona nuova vita ai tuoi capelli da Hassan Barber Shop, dove ogni taglio è un capolavoro su misura! </p>
                 
                 </div>
              </div>          
