@@ -79,7 +79,8 @@ export default {
        </div>
        <section>
          <div class="introhome bg-dark col-12">
-            <div class="col-8 offset-2 text-center p-5">
+            <div data-aos="fade-up"
+         data-aos-duration="3000" class="col-8 offset-2 text-center p-5">
              <img src="/barberlogowhite.png" alt="" style="width: 100px;">
              <p>SEI NEL POSTO GIUSTO:</p>
              <p class="infohomedescription">
@@ -166,7 +167,7 @@ export default {
           <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
             <!-- Content -->
             <h6 class="text-uppercase fw-bold mb-4">
-              <i class="fas fa-gem me-3"></i>Pro Barber
+              <i class="fas fa-gem me-3"></i>Hassan Barber Shop
             </h6>
             <p>
               Here you can use rows and columns to organize your footer content. Lorem ipsum
@@ -176,24 +177,7 @@ export default {
           <!-- Grid column -->
 
           <!-- Grid column -->
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">
-              Products
-            </h6>
-            <p>
-              <a href="#!" class="text-reset">Angular</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">React</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Vue</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Laravel</a>
-            </p>
-          </div>
+          
           <!-- Grid column -->
 
           <!-- Grid column -->
@@ -221,13 +205,13 @@ export default {
           <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
             <!-- Links -->
             <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-            <p><img src="/housefooter.png" alt="" style="width: 20px;"> New York, NY 10012, US</p>
+            <p><img src="/housefooter.png" alt="" style="width: 20px;"> Via Nizza, 346, 10127 Torino TO</p>
             <p>
               <img src="/letterafooter.png" alt="" style="width: 20px;">
               info@example.com
             </p>
-            <p><img src="/phonefooter.png" alt="" style="width: 18px;"> + 01 234 567 88</p>
-            <p><img src="/printerfooter.png" alt="" style="width: 18px;"> + 01 234 567 89</p>
+            <p><img src="/phonefooter.png" alt="" style="width: 18px;"> 388 306 5165</p>
+            <p><img src="/printerfooter.png" alt="" style="width: 18px;"> 388 306 5165</p>
           </div>
           <!-- Grid column -->
         </div>
@@ -239,7 +223,7 @@ export default {
     <!-- Copyright -->
     <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
       © 2021 Copyright:
-      <a class="text-reset fw-bold" href="">Pro Barber</a>
+      <a class="text-reset fw-bold" href="">Hassan Barber Shop</a>
     </div>
     <!-- Copyright -->
   </footer>

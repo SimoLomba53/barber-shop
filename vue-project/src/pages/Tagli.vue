@@ -65,12 +65,75 @@ AOS.init();
              
              </div>
            </section>
-           <section>
-              <div class="col-12">
-                 <div class="col-4">
-                    <video src=""></video>
+           <section class="tagli">
+              <div data-aos="fade-up"
+             data-aos-duration="3000" class="col-12 justify-content-center align-items-center d-flex flex-row gap-5 p-5">
+                 <div class="col-5">
+                    <video controls muted style="width: 100%;">
+                      <source src="videotaglio1.mp4" type="video/mp4">
+                      
+                        
+                    </video>
+                 </div>
+                 <div class="col-5">
+                        <video controls muted style="width: 100%;">
+                          <source src="videotaglio2.mp4" type="video/mp4">
+                      
+                        
+                        </video>
                  </div>
               </div>
+              <div data-aos="fade-up"
+             data-aos-duration="3000" class="col-12 justify-content-center align-items-center d-flex flex-row gap-5 p-5">
+                     <div class="col-5">
+                        <video controls muted style="width: 100%;">
+                          <source src="videotaglio3.mp4" type="video/mp4">
+                      
+                        
+                        </video>
+                     </div>
+                     <div class="col-5">
+                            <video controls muted style="width: 100%;">
+                              <source src="videotaglio4.mp4" type="video/mp4">
+                      
+                        
+                            </video>
+                     </div>
+                  </div>
+                  <div data-aos="fade-up"
+             data-aos-duration="3000" class="col-12 justify-content-center align-items-center d-flex flex-row gap-5 p-5">
+                     <div class="col-5">
+                        <video controls muted style="width: 100%;">
+                          <source src="videotaglio5.mp4" type="video/mp4">
+                      
+                        
+                        </video>
+                     </div>
+                     <div class="col-5">
+                            <video controls muted style="width: 100%;">
+                              <source src="videotaglio6.mp4" type="video/mp4">
+                      
+                        
+                            </video>
+                     </div>
+                  </div>
+                  <div data-aos="fade-up"
+                 data-aos-duration="3000" class="col-12 justify-content-center align-items-center d-flex flex-row gap-5 p-5">
+                         <div class="col-5">
+                            <video controls muted style="width: 100%;">
+                              <source src="videotaglio8.mp4" type="video/mp4">
+                      
+                        
+                            </video>
+                         </div>
+                         <div class="col-5">
+                                <video controls muted style="width: 100%;">
+                                  <source src="videotaglio9.mp4" type="video/mp4">
+                      
+                        
+                                </video>
+                         </div>
+                      </div>
            </section>
         </body>
     
@@ -130,5 +193,9 @@ AOS.init();
   background-color: transparent;
   color: white;
   border: 1px solid white;
+}
+
+.tagli{
+    background-color: #d2d2d2;
 }
 </style>
