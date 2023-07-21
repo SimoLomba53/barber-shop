@@ -54,7 +54,7 @@ export default {
                           <a href="">TAGLI</a>
                       </router-link>
                       <router-link class="text-dark" :to="{ name: 'ShopPage' }">
-                          <a href="">SHOP</a>
+                          <a href="">PREZZI</a>
                     </router-link>
                     <router-link class="text-dark" :to="{ name: 'Info' }">
                         <a href="">PRENOTA</a>
@@ -69,7 +69,9 @@ export default {
                    <div class="d-flex flex-column align-items-center justify-content-center">
                       
                     <h1>HASSAN BARBER SHOP</h1>
+                    <router-link class="text-dark" :to="{ name: 'Info' }">
                       <button class="p-3">PRENOTA</button>
+                    </router-link>
                    </div>
                    <div>
 
@@ -92,8 +94,8 @@ export default {
        </section>
        <section>
          <div class="cuthome col-12">
-          <div class="col-8 offset-2 d-flex flex-row">
-            <div class="col-6">
+          <div class="col-8 offset-2 d-flex flex-column flex-md-row">
+            <div class="col-12 col-md-6">
               <div data-aos="fade-up"
        data-aos-duration="3000" class="text-center cuthometext">
                 <h2>The Barber Shop</h2>
@@ -103,7 +105,7 @@ export default {
               <img data-aos="fade-up"
        data-aos-duration="3000" class="p-5" src="/barber3.jpg" alt="" style="width: 100%;">
             </div>
-            <div class="col-6">
+            <div class="col-12 col-md-6">
               <img data-aos="fade-up"
          data-aos-duration="3000" class="p-5" src="/barber4.jpg" alt="" style="width: 100%;">
                <div data-aos="fade-up"
@@ -118,7 +120,7 @@ export default {
        </section>
        <section>
          <div class="homevideo col-12">
-            <div  class="col-8 offset-2 text-center p-5">
+            <div  class="col-12 offset-0 col-sm-10 offset-sm-1 text-center p-3 p-sm-5">
                <video class="video-player back-video"  preload="auto" autoplay="autoplay" loop muted playsinline>
                <source
                 src='/hassanvideo.mp4' 
@@ -142,11 +144,11 @@ export default {
 
       <!-- Right -->
       <div>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-facebook-f"></i>
+        <a href="https://www.tiktok.com/@yassin.eljoker95?is_from_webapp=1&sender_device=pc" class="me-4 text-reset">
+          <i class="fab fa-tiktok"></i>
         </a>
         
-        <a href="" class="me-4 text-reset">
+        <a href="https://www.google.com/maps/dir/45.4627338,9.1777322/hassan+barber+shop+torino/@45.2664297,7.2529781,8z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x478813f6f54c58f3:0x2d93889b005b8151!2m2!1d7.6632603!2d45.0226264?entry=ttu" class="me-4 text-reset">
           <i class="fab fa-google"></i>
         </a>
         <a href="" class="me-4 text-reset">
@@ -170,8 +172,7 @@ export default {
               <i class="fas fa-gem me-3"></i>Hassan Barber Shop
             </h6>
             <p>
-              Here you can use rows and columns to organize your footer content. Lorem ipsum
-              dolor sit amet, consectetur adipisicing elit.
+              Dona nuova vita ai tuoi capelli da Hassan Barber Shop, dove ogni taglio è un capolavoro su misura!
             </p>
           </div>
           <!-- Grid column -->
@@ -181,22 +182,30 @@ export default {
           <!-- Grid column -->
 
           <!-- Grid column -->
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 footlink">
             <!-- Links -->
             <h6 class="text-uppercase fw-bold mb-4">
               SECTION
             </h6>
             <p>
-              <a href="#!" class="text-reset">Homepage</a>
+              <router-link class="text-dark" :to="{ name: 'Homepage' }">
+                            <a href="">Homepage</a>
+              </router-link>
             </p>
             <p>
-              <a href="#!" class="text-reset">Tagli</a>
+              <router-link class="text-dark" :to="{ name: 'Tagli' }">
+                              <a href="">Tagli</a>
+              </router-link>
             </p>
             <p>
-              <a href="#!" class="text-reset">Lo Shop</a>
+              <router-link class="text-dark" :to="{ name: 'ShopPage' }">
+                              <a href="">Prezzi</a>
+              </router-link>
             </p>
             <p>
-              <a href="#!" class="text-reset">Prenota</a>
+              <router-link class="text-dark" :to="{ name: 'Info' }">
+                              <a href="">Prenota</a>
+              </router-link>
             </p>
           </div>
           <!-- Grid column -->
@@ -222,7 +231,7 @@ export default {
 
     <!-- Copyright -->
     <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-      © 2021 Copyright:
+      © 2023 Copyright:
       <a class="text-reset fw-bold" href="">Hassan Barber Shop</a>
     </div>
     <!-- Copyright -->
@@ -247,7 +256,7 @@ export default {
   right: 0;
   bottom: 0;
   left: 0;
-  background-image: url('/barber1.jpg'); /* Inserisci il percorso dell'immagine di sfondo */
+  background-image: url('/barber6.jpg'); /* Inserisci il percorso dell'immagine di sfondo */
   background-repeat: no-repeat;
   background-size: cover;
   
@@ -324,5 +333,18 @@ export default {
   width: 100%;
 }
 
+.jumbohome button{
+  transition: 1s;
+}
+
+.jumbohome button:hover{
+  color: black;
+  background-color: #ffffff;
+}
+
+.footlink a{
+  text-decoration: none;
+  color:#565a5d;
+}
 
 </style>

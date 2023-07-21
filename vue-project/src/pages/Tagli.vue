@@ -1,6 +1,29 @@
-<script setup>
+<script >
 import AOS from "aos";
 AOS.init();
+
+export default {
+  data() {
+    return {
+      parallaxStyle: '',
+    };
+  },
+  mounted() {
+    window.addEventListener('scroll', this.handleScroll);
+  },
+  beforeDestroy() {
+    window.removeEventListener('scroll', this.handleScroll);
+  },
+  methods: {
+    handleScroll() {
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+      this.parallaxStyle = `background-position: center ${scrollTop * 0.3}px;`;
+    },
+  },
+
+
+};
+
 </script>
 
 <template>
@@ -24,7 +47,7 @@ AOS.init();
                               <a href="">TAGLI</a>
                           </router-link>
                           <router-link class="text-dark" :to="{ name: 'ShopPage' }">
-                              <a href="">SHOP</a>
+                              <a href="">PREZZI</a>
                         </router-link>
                         <router-link class="text-dark" :to="{ name: 'Info' }">
                             <a href="">PRENOTA</a>
@@ -51,7 +74,8 @@ AOS.init();
            <section>
              
                <div class="introhome bg-dark col-12">
-                <div class="col-8 offset-2 text-center p-5">
+                <div data-aos="fade-up"
+                   data-aos-duration="3000" class="col-8 offset-2 text-center p-5">
                  <img src="/barberlogowhite.png" alt="" style="width: 100px;">
                  <p>LA QUALITA' E' IL NOSTRO PUNTO DI FORZA!</p>
                  <p class="infohomedescription">
@@ -67,15 +91,16 @@ AOS.init();
            </section>
            <section class="tagli">
               <div data-aos="fade-up"
-             data-aos-duration="3000" class="col-12 justify-content-center align-items-center d-flex flex-row gap-5 p-5">
-                 <div class="col-5">
+             data-aos-duration="3000" class="col-12 justify-content-center align-items-center d-flex flex-column flex-sm-row gap-5 p-5">
+                 <div class="col-10 col-sm-5">
                     <video controls muted style="width: 100%;">
                       <source src="videotaglio1.mp4" type="video/mp4">
                       
                         
                     </video>
+                    
                  </div>
-                 <div class="col-5">
+                 <div class="col-10 col-sm-5">
                         <video controls muted style="width: 100%;">
                           <source src="videotaglio2.mp4" type="video/mp4">
                       
@@ -84,15 +109,15 @@ AOS.init();
                  </div>
               </div>
               <div data-aos="fade-up"
-             data-aos-duration="3000" class="col-12 justify-content-center align-items-center d-flex flex-row gap-5 p-5">
-                     <div class="col-5">
+             data-aos-duration="3000" class="col-12 justify-content-center align-items-center d-flex flex-column flex-sm-row gap-5 p-5">
+                     <div class="col-10 col-sm-5">
                         <video controls muted style="width: 100%;">
                           <source src="videotaglio3.mp4" type="video/mp4">
                       
                         
                         </video>
                      </div>
-                     <div class="col-5">
+                     <div class="col-10 col-sm-5">
                             <video controls muted style="width: 100%;">
                               <source src="videotaglio4.mp4" type="video/mp4">
                       
@@ -101,15 +126,15 @@ AOS.init();
                      </div>
                   </div>
                   <div data-aos="fade-up"
-             data-aos-duration="3000" class="col-12 justify-content-center align-items-center d-flex flex-row gap-5 p-5">
-                     <div class="col-5">
+             data-aos-duration="3000" class="col-12 justify-content-center align-items-center d-flex flex-column flex-sm-row gap-5 p-5">
+                     <div class="col-10 col-sm-5">
                         <video controls muted style="width: 100%;">
                           <source src="videotaglio5.mp4" type="video/mp4">
                       
                         
                         </video>
                      </div>
-                     <div class="col-5">
+                     <div class="col-10 col-sm-5">
                             <video controls muted style="width: 100%;">
                               <source src="videotaglio6.mp4" type="video/mp4">
                       
@@ -118,15 +143,15 @@ AOS.init();
                      </div>
                   </div>
                   <div data-aos="fade-up"
-                 data-aos-duration="3000" class="col-12 justify-content-center align-items-center d-flex flex-row gap-5 p-5">
-                         <div class="col-5">
+                 data-aos-duration="3000" class="col-12 justify-content-center align-items-center d-flex flex-column flex-sm-row gap-5 p-5">
+                         <div class="col-10 col-sm-5">
                             <video controls muted style="width: 100%;">
                               <source src="videotaglio8.mp4" type="video/mp4">
                       
                         
                             </video>
                          </div>
-                         <div class="col-5">
+                         <div class="col-10 col-sm-5">
                                 <video controls muted style="width: 100%;">
                                   <source src="videotaglio9.mp4" type="video/mp4">
                       
@@ -135,6 +160,111 @@ AOS.init();
                          </div>
                       </div>
            </section>
+            <footer class="text-center text-lg-start bg-light text-muted">
+      <!-- Section: Social media -->
+      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+        <!-- Left -->
+        <div class="me-5 d-none d-lg-block">
+          <span>Get connected with us on social networks:</span>
+        </div>
+        <!-- Left -->
+
+        <!-- Right -->
+        <div>
+          <a href="https://www.tiktok.com/@yassin.eljoker95?is_from_webapp=1&sender_device=pc" class="me-4 text-reset">
+            <i class="fab fa-tiktok"></i>
+          </a>
+        
+          <a href="https://www.google.com/maps/dir/45.4627338,9.1777322/hassan+barber+shop+torino/@45.2664297,7.2529781,8z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x478813f6f54c58f3:0x2d93889b005b8151!2m2!1d7.6632603!2d45.0226264?entry=ttu" class="me-4 text-reset">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-instagram"></i>
+          </a>
+       
+        </div>
+        <!-- Right -->
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3"></i>Hassan Barber Shop
+              </h6>
+              <p>
+                Dona nuova vita ai tuoi capelli da Hassan Barber Shop, dove ogni taglio è un capolavoro su misura!
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+          
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 footlink">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                SECTION
+              </h6>
+              <p>
+                <router-link class="text-dark" :to="{ name: 'Homepage' }">
+                              <a href="">Homepage</a>
+                </router-link>
+              </p>
+              <p>
+                <router-link class="text-dark" :to="{ name: 'Tagli' }">
+                                <a href="">Tagli</a>
+                </router-link>
+              </p>
+              <p>
+                <router-link class="text-dark" :to="{ name: 'ShopPage' }">
+                                <a href="">Prezzi</a>
+                </router-link>
+              </p>
+              <p>
+                <router-link class="text-dark" :to="{ name: 'Info' }">
+                                <a href="">Prenota</a>
+                </router-link>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+              <p><img src="/housefooter.png" alt="" style="width: 20px;"> Via Nizza, 346, 10127 Torino TO</p>
+              <p>
+                <img src="/letterafooter.png" alt="" style="width: 20px;">
+                info@example.com
+              </p>
+              <p><img src="/phonefooter.png" alt="" style="width: 18px;"> 388 306 5165</p>
+              <p><img src="/printerfooter.png" alt="" style="width: 18px;"> 388 306 5165</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2023 Copyright:
+        <a class="text-reset fw-bold" href="">Hassan Barber Shop</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+       
         </body>
     
 </template>
