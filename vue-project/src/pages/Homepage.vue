@@ -92,30 +92,100 @@ export default {
             </div>
          </div>
        </section>
-       <section>
+       <section class="homeimage">
          <div class="cuthome col-12">
           <div class="col-8 offset-2 d-flex flex-column flex-md-row">
             <div class="col-12 col-md-6">
               <div data-aos="fade-up"
        data-aos-duration="3000" class="text-center cuthometext">
-                <h2>The Barber Shop</h2>
-                <p>Cuts, Shaves & Trims From The Best In The Biz.</p>
-                <p>All shop services are accompanied by a complimentary cocktail.</p>
+                <h2 class="firsthometitle">Hassan Barber Shop</h2>
+                <p>Non è un semplice barber shop.</p>
+                <p>Ma un luogo in cui sentirsi a casa.</p>
               </div>
               <img data-aos="fade-up"
-       data-aos-duration="3000" class="p-5" src="/barber3.jpg" alt="" style="width: 100%;">
+       data-aos-duration="3000" class="p-5" src="/home7.jpeg" alt="" style="width: 100%;">
             </div>
             <div class="col-12 col-md-6">
               <img data-aos="fade-up"
-         data-aos-duration="3000" class="p-5" src="/barber4.jpg" alt="" style="width: 100%;">
+         data-aos-duration="3000" class="p-5" src="/home8.jpeg" alt="" style="width: 100%;">
                <div data-aos="fade-up"
          data-aos-duration="3000" class="text-center cuthometext2">
-                  <h2>The Barber Shop</h2>
-                  <p>Cuts, Shaves & Trims From The Best In The Biz.</p>
-                  <p>All shop services are accompanied by a complimentary cocktail.</p>
+                  <h2 class="secondhometitle">Non siamo solo un negozio</h2>
+                  <p>Ma un luogo di serenita in cui puoi ridere e scherzare.</p>
+                  <p>Mentre ti rilassi ascoltando dell'ottima musica.</p>
                 </div>
             </div>
+            
           </div>
+          <div class="col-8 offset-2 d-flex flex-column flex-md-row">
+              <div class="col-12 col-md-6">
+                <div data-aos="fade-up"
+         data-aos-duration="3000" class="text-center cuthometext">
+                  <h2 class="firsthometitle">Tagli Unici con un tocco di maestria</h2>
+                  <p>Ogni taglio è un'opera d'arte unica, concepita con cura e maestria.</p>
+                  <p>Anni di esperienza e passione per il mestiere, sfiorano le lame con precisione millimetrica, trasformando ciocche ordinarie in opere di bellezza senza pari.</p>
+                </div>
+                <img data-aos="fade-up"
+         data-aos-duration="3000" class="p-5" src="/home3.jpeg" alt="" style="width: 100%;">
+              </div>
+              <div class="col-12 col-md-6">
+                <img data-aos="fade-up"
+           data-aos-duration="3000" class="p-5" src="/home6.jpeg" alt="" style="width: 100%;">
+                 <div data-aos="fade-up"
+           data-aos-duration="3000" class="text-center cuthometext2">
+                    <h2 class="secondhometitle">La creatività prende forma</h2>
+                    <p>Prova uno dei nostri fantastici tagli decorativi.</p>
+                    <p>E rimarrai stupito di come un taglio di capelli può rendere il tuo stile unico e inimitabile.</p>
+                  </div>
+              </div>
+            
+            </div>
+            <div class="col-8 offset-2 d-flex flex-column flex-md-row">
+              <div class="col-12 col-md-6">
+                <div data-aos="fade-up"
+         data-aos-duration="3000" class="text-center cuthometext">
+                  <h2 class="firsthometitle">La nostra missione</h2>
+                  <p>Regalarti più di un taglio impeccabile.</p>
+                  <p>Vogliamo regalarti momenti indimenticabili e far sì che tu ritorni sempre con un sorriso sulle labbra.</p>
+                </div>
+                <img data-aos="fade-up"
+         data-aos-duration="3000" class="p-5" src="/home2.jpeg" alt="" style="width: 100%;">
+              </div>
+              <div class="col-12 col-md-6">
+                <img data-aos="fade-up"
+           data-aos-duration="3000" class="p-5" src="/home1.jpeg" alt="" style="width: 100%;">
+                 <div data-aos="fade-up"
+           data-aos-duration="3000" class="text-center cuthometext2">
+                    <h2 class="secondhometitle">Ogni dettaglio è fondamentale</h2>
+                    <p>Prima di iniziare ogni taglio, ascolta con pazienza i desideri e le preferenze di ognuno.</p>
+                    <p>Suggerendo soluzioni personalizzate che soddisfano anche le richieste più esigenti.</p>
+                  </div>
+              </div>
+            
+            </div>
+            <div class="col-8 offset-2 d-flex flex-column flex-md-row">
+              <div class="col-12 col-md-6">
+                <div data-aos="fade-up"
+         data-aos-duration="3000" class="text-center cuthometext">
+                  <h2 class="firsthometitle">Passione, dedizione e ricerca dell'eccellenza</h2>
+                  <p>La soddisfazione dei nostri clienti è la nostra più grande ricompensa.</p>
+                  <p>la fidelizzazione di una clientela affezionata è la prova della nostra maestria nel realizzare veri e propri capolavori su capelli.</p>
+                </div>
+                <img data-aos="fade-up"
+         data-aos-duration="3000" class="p-5" src="/home4.jpeg" alt="" style="width: 100%;">
+              </div>
+              <div class="col-12 col-md-6">
+                <img data-aos="fade-up"
+           data-aos-duration="3000" class="p-5" src="/home5.jpeg" alt="" style="width: 100%;">
+                 <div data-aos="fade-up"
+           data-aos-duration="3000" class="text-center cuthometext2">
+                    <h2 class="secondhometitle">Non rinunciare a tutto questo.</h2>
+                    <p>Hassab Barber Shop è pronto ad accoglierti.</p>
+                    <p>E' il momento giusto per ottenere il taglio che hai sempre voluto!</p>
+                  </div>
+              </div>
+            
+            </div>
          </div>
        </section>
        <section>
@@ -345,6 +415,20 @@ export default {
 .footlink a{
   text-decoration: none;
   color:#565a5d;
+}
+
+.homeimage img{
+  width: 100%;
+}
+
+.firsthometitle{
+   color:#004c8c;
+   font-size: 45px;
+}
+
+.secondhometitle{
+   color:#f64848 ;
+   font-size: 45px;
 }
 
 </style>
