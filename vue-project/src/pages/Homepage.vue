@@ -459,4 +459,24 @@ export default {
   position: absolute;
   left: -50px !important;
 }
+
+@media only screen and (max-width: 766px) {
+  .cuthome{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #ffffff;
+}
+
+.cuthometext{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+
+.cuthometext2{
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+}
 </style>
