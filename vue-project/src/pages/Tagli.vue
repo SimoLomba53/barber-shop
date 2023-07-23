@@ -106,7 +106,9 @@ export default {
     Ogni taglio viene eseguito con una precisione meticolosa, tenendo conto della forma del viso, della texture dei capelli e delle vostre preferenze personali. Utilizziamo solo strumenti di alta qualità e prodotti professionali per garantire risultati impeccabili. Ogni dettaglio, dalle linee perfettamente definite alle sfumature fluide, viene curato con cura per creare un look unico e su misura per ogni cliente.
 
                  </p>
+                 <div class="d-flex align-items-center justify-content-center">
                  <img src="/firma.png" alt="" style="width:200px;">
+                 </div>
                 </div>
              
              </div>
