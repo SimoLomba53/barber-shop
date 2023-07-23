@@ -97,7 +97,7 @@ export default {
              
                <div class="introhome bg-dark col-12">
                 <div data-aos="fade-up"
-                   data-aos-duration="3000" class="col-8 offset-2 text-center p-5">
+                   data-aos-duration="3000" class="col-10 offset-1 col-md-8 offset-md-2 text-center p-5">
                  <img src="/barberlogowhite.png" alt="" style="width: 100px;">
                  <p>LA QUALITA' E' IL NOSTRO PUNTO DI FORZA!</p>
                  <p class="infohomedescription">
