@@ -241,7 +241,7 @@ export default {
 }
 
 .jumbohome2 h1{
-  font-size: 170px;
+  font-size:clamp(50px,10vw,220px);
 }
 
 .jumbohome2 button{

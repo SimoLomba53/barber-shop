@@ -316,7 +316,7 @@ export default {
 }
 
 .jumbotagli h1{
-  font-size: 170px;
+  font-size:clamp(80px,8vw,200px);
 }
 
 .jumbotagli button{
