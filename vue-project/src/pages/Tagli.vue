@@ -125,7 +125,7 @@ export default {
                     
                  </div>
                  <div class="col-10 col-sm-5">
-                        <video controls muted style="width: 100%;">
+                        <video  class="video-player back-video"  preload="auto" autoplay="autoplay" loop muted playsinline style="width: 100%;">
                           <source src="/videotaglio2.mp4" type="video/mp4">
                       
                         
