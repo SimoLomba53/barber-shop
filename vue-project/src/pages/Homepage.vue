@@ -397,7 +397,7 @@ export default {
 }
 
 .infohomedescription{
-  font-size: 20px;
+  font-size:clamp(10px,2.85vw,25px);
 }
 
 .cuthome{
