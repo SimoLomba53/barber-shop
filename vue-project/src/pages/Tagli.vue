@@ -115,7 +115,7 @@ export default {
            </section>
            <section class="tagli">
               <div data-aos="fade-up"
-             data-aos-duration="3000" class="col-12 justify-content-center align-items-center d-flex flex-column flex-sm-row gap-5 p-5">
+             data-aos-duration="3000" class="col-12 justify-content-center align-items-center d-flex flex-column flex-sm-row gap-5 p-1 p-sm-5">
                  <div class="col-10 col-sm-5">
                     <video class="video-player back-video"  preload="auto" autoplay="autoplay" loop muted playsinline style="width: 100%;">
                       <source src="/videotaglio1.mp4" type="video/mp4">
@@ -133,7 +133,7 @@ export default {
                  </div>
               </div>
               <div data-aos="fade-up"
-             data-aos-duration="3000" class="col-12 justify-content-center align-items-center d-flex flex-column flex-sm-row gap-5 p-5">
+             data-aos-duration="3000" class="col-12 justify-content-center align-items-center d-flex flex-column flex-sm-row gap-5 p-1 p-sm-5">
                      <div class="col-10 col-sm-5">
                         <video class="video-player back-video"  preload="auto" autoplay="autoplay" loop muted playsinline style="width: 100%;">
                           <source src="/videotaglio3.mp4" type="video/mp4">
@@ -150,7 +150,7 @@ export default {
                      </div>
                   </div>
                   <div data-aos="fade-up"
-             data-aos-duration="3000" class="col-12 justify-content-center align-items-center d-flex flex-column flex-sm-row gap-5 p-5">
+             data-aos-duration="3000" class="col-12 justify-content-center align-items-center d-flex flex-column flex-sm-row gap-5 p-1 p-sm-5">
                      <div class="col-10 col-sm-5">
                         <video class="video-player back-video"  preload="auto" autoplay="autoplay" loop muted playsinline style="width: 100%;">
                           <source src="/videotaglio5.mp4" type="video/mp4">
@@ -167,7 +167,7 @@ export default {
                      </div>
                   </div>
                   <div data-aos="fade-up"
-                 data-aos-duration="3000" class="col-12 justify-content-center align-items-center d-flex flex-column flex-sm-row gap-5 p-5">
+                 data-aos-duration="3000" class="col-12 justify-content-center align-items-center d-flex flex-column flex-sm-row gap-5 p-1 p-sm-5">
                          <div class="col-10 col-sm-5">
                             <video class="video-player back-video"  preload="auto" autoplay="autoplay" loop muted playsinline style="width: 100%;">
                               <source src="/videotaglio8.mp4" type="video/mp4">
