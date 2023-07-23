@@ -94,7 +94,7 @@ export default {
              data-aos-duration="3000" class="col-12 justify-content-center align-items-center d-flex flex-column flex-sm-row gap-5 p-5">
                  <div class="col-10 col-sm-5">
                     <video controls muted style="width: 100%;">
-                      <source src="videotaglio1.mp4" type="video/mp4">
+                      <source src="/videotaglio1.mp4" type="video/mp4">
                       
                         
                     </video>
@@ -102,7 +102,7 @@ export default {
                  </div>
                  <div class="col-10 col-sm-5">
                         <video controls muted style="width: 100%;">
-                          <source src="videotaglio2.mp4" type="video/mp4">
+                          <source src="/videotaglio2.mp4" type="video/mp4">
                       
                         
                         </video>
@@ -112,14 +112,14 @@ export default {
              data-aos-duration="3000" class="col-12 justify-content-center align-items-center d-flex flex-column flex-sm-row gap-5 p-5">
                      <div class="col-10 col-sm-5">
                         <video controls muted style="width: 100%;">
-                          <source src="videotaglio3.mp4" type="video/mp4">
+                          <source src="/videotaglio3.mp4" type="video/mp4">
                       
                         
                         </video>
                      </div>
                      <div class="col-10 col-sm-5">
                             <video controls muted style="width: 100%;">
-                              <source src="videotaglio4.mp4" type="video/mp4">
+                              <source src="/videotaglio4.mp4" type="video/mp4">
                       
                         
                             </video>
@@ -129,14 +129,14 @@ export default {
              data-aos-duration="3000" class="col-12 justify-content-center align-items-center d-flex flex-column flex-sm-row gap-5 p-5">
                      <div class="col-10 col-sm-5">
                         <video controls muted style="width: 100%;">
-                          <source src="videotaglio5.mp4" type="video/mp4">
+                          <source src="/videotaglio5.mp4" type="video/mp4">
                       
                         
                         </video>
                      </div>
                      <div class="col-10 col-sm-5">
                             <video controls muted style="width: 100%;">
-                              <source src="videotaglio6.mp4" type="video/mp4">
+                              <source src="/videotaglio6.mp4" type="video/mp4">
                       
                         
                             </video>
@@ -146,14 +146,14 @@ export default {
                  data-aos-duration="3000" class="col-12 justify-content-center align-items-center d-flex flex-column flex-sm-row gap-5 p-5">
                          <div class="col-10 col-sm-5">
                             <video controls muted style="width: 100%;">
-                              <source src="videotaglio8.mp4" type="video/mp4">
+                              <source src="/videotaglio8.mp4" type="video/mp4">
                       
                         
                             </video>
                          </div>
                          <div class="col-10 col-sm-5">
                                 <video controls muted style="width: 100%;">
-                                  <source src="videotaglio9.mp4" type="video/mp4">
+                                  <source src="/videotaglio9.mp4" type="video/mp4">
                       
                         
                                 </video>
