@@ -447,12 +447,12 @@ export default {
 
 .firsthometitle{
    color:#004c8c;
-   font-size: 45px;
+   font-size:clamp(28px,3vw,45px);
 }
 
 .secondhometitle{
    color:#f64848 ;
-   font-size: 45px;
+   font-size:clamp(28px,3vw,45px);
 }
 
 .rominapower{
