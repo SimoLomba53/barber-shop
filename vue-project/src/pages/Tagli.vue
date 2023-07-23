@@ -126,7 +126,7 @@ export default {
                  </div>
                  <div class="col-10 col-sm-5">
                         <video  class="video-player back-video"  preload="auto" autoplay="autoplay" loop muted playsinline style="width: 100%;">
-                          <source src="/videotaglio2.MOV" type="video/mp4">
+                          <source src="/videotaglio2.mp4" type="video/mp4">
                       
                         
                         </video>
@@ -136,14 +136,14 @@ export default {
              data-aos-duration="3000" class="col-12 justify-content-center align-items-center d-flex flex-column flex-sm-row gap-5 p-3 p-sm-5">
                      <div class="col-10 col-sm-5">
                         <video class="video-player back-video"  preload="auto" autoplay="autoplay" loop muted playsinline style="width: 100%;">
-                          <source src="/videotaglio3.MOV" type="video/mp4">
+                          <source src="/videotaglio3.mp4" type="video/mp4">
                       
                         
                         </video>
                      </div>
                      <div class="col-10 col-sm-5">
                             <video class="video-player back-video"  preload="auto" autoplay="autoplay" loop muted playsinline style="width: 100%;">
-                              <source src="/videotaglio4.MOV" type="video/mp4">
+                              <source src="/videotaglio4.mp4" type="video/mp4">
                       
                         
                             </video>
@@ -153,14 +153,14 @@ export default {
              data-aos-duration="3000" class="col-12 justify-content-center align-items-center d-flex flex-column flex-sm-row gap-5 p-3 p-sm-5">
                      <div class="col-10 col-sm-5">
                         <video class="video-player back-video"  preload="auto" autoplay="autoplay" loop muted playsinline style="width: 100%;">
-                          <source src="/videotaglio5.MOV" type="video/mp4">
+                          <source src="/videotaglio5.mp4" type="video/mp4">
                       
                         
                         </video>
                      </div>
                      <div class="col-10 col-sm-5">
                             <video class="video-player back-video"  preload="auto" autoplay="autoplay" loop muted playsinline style="width: 100%;">
-                              <source src="/videotaglio6.MOV" type="video/mp4">
+                              <source src="/videotaglio6.mp4" type="video/mp4">
                       
                         
                             </video>
@@ -170,14 +170,14 @@ export default {
                  data-aos-duration="3000" class="col-12 justify-content-center align-items-center d-flex flex-column flex-sm-row gap-5 p-3 p-sm-5">
                          <div class="col-10 col-sm-5">
                             <video class="video-player back-video"  preload="auto" autoplay="autoplay" loop muted playsinline style="width: 100%;">
-                              <source src="/videotaglio7.MOV" type="video/mp4">
+                              <source src="/videotaglio7.mp4" type="video/mp4">
                       
                         
                             </video>
                          </div>
                          <div class="col-10 col-sm-5">
                                 <video class="video-player back-video"  preload="auto" autoplay="autoplay" loop muted playsinline style="width: 100%;">
-                                  <source src="/videotaglio8.MOV" type="video/mp4">
+                                  <source src="/videotaglio8.mp4" type="video/mp4">
                       
                         
                                 </video>
@@ -187,14 +187,14 @@ export default {
                    data-aos-duration="3000" class="col-12 justify-content-center align-items-center d-flex flex-column flex-sm-row gap-5 p-3 p-sm-5">
                            <div class="col-10 col-sm-5">
                               <video class="video-player back-video"  preload="auto" autoplay="autoplay" loop muted playsinline style="width: 100%;">
-                                <source src="/videotaglio9.MOV" type="video/mp4">
+                                <source src="/videotaglio9.mp4" type="video/mp4">
                       
                         
                               </video>
                            </div>
                            <div class="col-10 col-sm-5">
                                   <video class="video-player back-video"  preload="auto" autoplay="autoplay" loop muted playsinline style="width: 100%;">
-                                    <source src="/videotaglio10.MOV" type="video/mp4">
+                                    <source src="/videotaglio10.mp4" type="video/mp4">
                       
                         
                                   </video>
@@ -204,14 +204,14 @@ export default {
                      data-aos-duration="3000" class="col-12 justify-content-center align-items-center d-flex flex-column flex-sm-row gap-5 p-3 p-sm-5">
                              <div class="col-10 col-sm-5">
                                 <video class="video-player back-video"  preload="auto" autoplay="autoplay" loop muted playsinline style="width: 100%;">
-                                  <source src="/videotaglio11.MOV" type="video/mp4">
+                                  <source src="/videotaglio11.mp4" type="video/mp4">
                       
                         
                                 </video>
                              </div>
                              <div class="col-10 col-sm-5">
                                     <video class="video-player back-video"  preload="auto" autoplay="autoplay" loop muted playsinline style="width: 100%;">
-                                      <source src="/videotaglio12.MOV" type="video/mp4">
+                                      <source src="/videotaglio12.mp4" type="video/mp4">
                       
                         
                                     </video>
