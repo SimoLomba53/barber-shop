@@ -145,7 +145,7 @@ export default {
               <div class="col-12 col-md-6">
                 <div data-aos="fade-up"
          data-aos-duration="3000" class="text-center cuthometext">
-                  <h2 class="firsthometitle">Tagli Unici con un tocco di maestria</h2>
+                  <h2 class="firsthometitle">Tagli unici con un tocco di maestria</h2>
                   <p>Ogni taglio è un'opera d'arte unica, concepita con cura e maestria.</p>
                   <p>Anni di esperienza e passione per il mestiere, sfiorano le lame con precisione millimetrica, trasformando ciocche ordinarie in opere di bellezza senza pari.</p>
                 </div>
@@ -204,7 +204,7 @@ export default {
                  <div data-aos="fade-up"
            data-aos-duration="3000" class="text-center cuthometext2">
                     <h2 class="secondhometitle">Non rinunciare a tutto questo.</h2>
-                    <p>Hassab Barber Shop è pronto ad accoglierti.</p>
+                    <p>Hassan Barber Shop è pronto ad accoglierti.</p>
                     <p>E' il momento giusto per ottenere il taglio che hai sempre voluto!</p>
                   </div>
               </div>
