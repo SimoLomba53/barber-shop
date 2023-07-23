@@ -127,11 +127,11 @@ export default {
                 <p>Ma un luogo in cui sentirsi a casa.</p>
               </div>
               <img data-aos="fade-up"
-       data-aos-duration="3000" class="p-5" src="/home7.jpeg" alt="" style="width: 100%;">
+       data-aos-duration="3000" class="p-1 p-md-5" src="/home7.jpeg" alt="" style="width: 100%;">
             </div>
             <div class="col-12 col-md-6">
               <img data-aos="fade-up"
-         data-aos-duration="3000" class="p-5" src="/home8.jpeg" alt="" style="width: 100%;">
+         data-aos-duration="3000" class="p-1 p-md-5" src="/home8.jpeg" alt="" style="width: 100%;">
                <div data-aos="fade-up"
          data-aos-duration="3000" class="text-center cuthometext2">
                   <h2 class="secondhometitle">Non siamo solo un negozio</h2>
@@ -150,11 +150,11 @@ export default {
                   <p>Anni di esperienza e passione per il mestiere, sfiorano le lame con precisione millimetrica, trasformando ciocche ordinarie in opere di bellezza senza pari.</p>
                 </div>
                 <img data-aos="fade-up"
-         data-aos-duration="3000" class="p-5" src="/home3.jpeg" alt="" style="width: 100%;">
+         data-aos-duration="3000" class="p-1 p-md-5" src="/home3.jpeg" alt="" style="width: 100%;">
               </div>
               <div class="col-12 col-md-6">
                 <img data-aos="fade-up"
-           data-aos-duration="3000" class="p-5" src="/home6.jpeg" alt="" style="width: 100%;">
+           data-aos-duration="3000" class="p-1 p-md-5" src="/home6.jpeg" alt="" style="width: 100%;">
                  <div data-aos="fade-up"
            data-aos-duration="3000" class="text-center cuthometext2">
                     <h2 class="secondhometitle">La creatività prende forma</h2>
@@ -173,11 +173,11 @@ export default {
                   <p>Vogliamo regalarti momenti indimenticabili e far sì che tu ritorni sempre con un sorriso sulle labbra.</p>
                 </div>
                 <img data-aos="fade-up"
-         data-aos-duration="3000" class="p-5" src="/home2.jpeg" alt="" style="width: 100%;">
+         data-aos-duration="3000" class="p-1 p-md-5" src="/home2.jpeg" alt="" style="width: 100%;">
               </div>
               <div class="col-12 col-md-6">
                 <img data-aos="fade-up"
-           data-aos-duration="3000" class="p-5" src="/home1.jpeg" alt="" style="width: 100%;">
+           data-aos-duration="3000" class="p-1 p-md-5" src="/home1.jpeg" alt="" style="width: 100%;">
                  <div data-aos="fade-up"
            data-aos-duration="3000" class="text-center cuthometext2">
                     <h2 class="secondhometitle">Ogni dettaglio è fondamentale</h2>
@@ -196,11 +196,11 @@ export default {
                   <p>la fidelizzazione di una clientela affezionata è la prova della nostra maestria nel realizzare veri e propri capolavori su capelli.</p>
                 </div>
                 <img data-aos="fade-up"
-         data-aos-duration="3000" class="p-5" src="/home4.jpeg" alt="" style="width: 100%;">
+         data-aos-duration="3000" class="p-1 p-md-5" src="/home4.jpeg" alt="" style="width: 100%;">
               </div>
               <div class="col-12 col-md-6">
                 <img data-aos="fade-up"
-           data-aos-duration="3000" class="p-5" src="/home5.jpeg" alt="" style="width: 100%;">
+           data-aos-duration="3000" class="p-1 p-md-5" src="/home5.jpeg" alt="" style="width: 100%;">
                  <div data-aos="fade-up"
            data-aos-duration="3000" class="text-center cuthometext2">
                     <h2 class="secondhometitle">Non rinunciare a tutto questo.</h2>
