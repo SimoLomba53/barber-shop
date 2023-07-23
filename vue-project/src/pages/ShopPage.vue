@@ -106,7 +106,7 @@ export default {
                         Siamo fieri di offrirvi esperienza, talento e qualità insuperabili, il tutto a prezzi imbattibili. La nostra missione è rendervi splendidi senza dover svuotare il portafoglio. Con un team di parrucchieri esperti, utilizziamo solo prodotti di alta qualità e seguiamo le ultime tendenze. Siamo certi che non troverete tariffe migliori altrove per i nostri servizi di altissimo livello. La soddisfazione dei nostri clienti è la nostra priorità, garantendo un rapporto qualità-prezzo imbattibile. Affidatevi a noi e lasciatevi coccolare dalla migliore esperienza di bellezza sul mercato!
 
                     </p>
-                    <img src="/firma.png" alt="" style="width:250px;">
+                    <img src="/firma.png" alt="" style="width:200px;">
                 </div>
 
             </div>
@@ -342,5 +342,9 @@ export default {
 .rominapower{
   position: absolute;
   left: -50px !important;
+}
+
+.infohomedescription{
+  font-size:clamp(10px,3.50vw,25px);
 }
 </style>
