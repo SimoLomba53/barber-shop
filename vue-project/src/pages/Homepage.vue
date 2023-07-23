@@ -86,7 +86,7 @@ export default {
                </div>
                
               </div>
-            </nav>
+             </nav>
                 <div class="jumbohome text-center d-flex align-items-center justify-content-center">
                    <div class="d-flex flex-column align-items-center justify-content-center">
                       
