@@ -64,7 +64,7 @@ export default {
                </div>
                <div class="dropdown d-block d-md-none">
                  <button class="btn dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <img src="menu.jpg" alt="" style="width: 40px;">
+                    <img src="/menu.jpg" alt="" style="width: 40px;">
                 </button>
                 <ul class="rominapower dropdown-menu dropdown-menu-dark text-center">
                  <li>
