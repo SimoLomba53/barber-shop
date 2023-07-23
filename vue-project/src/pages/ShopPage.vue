@@ -43,7 +43,7 @@ export default {
                                 <img src="/barberlogowhite.png" alt="" style="width: 100px;">
                             </router-link>
                         </div>
-                        <div class="d-flex flex-row gap-5 text-center">
+                        <div class="d-none d-md-flex flex-row gap-5 text-center">
 
                             <router-link class="text-dark" :to="{ name: 'Tagli' }">
                                 <a href="">TAGLI</a>
@@ -57,6 +57,28 @@ export default {
 
 
                         </div>
+                        <div class="dropdown d-block d-md-none">
+                   <button class="btn dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <img src="/menu.jpg" alt="" style="width: 40px;">
+                  </button>
+                  <ul class="rominapower dropdown-menu dropdown-menu-dark text-center">
+                   <li>
+                    <router-link class="text-dark" :to="{ name: 'Tagli' }">
+                              <a href="">TAGLI</a>
+                    </router-link>
+                   </li>
+                   <li>
+                    <router-link class="text-dark" :to="{ name: 'ShopPage' }">
+                              <a href="">PREZZI</a>
+                        </router-link>
+                    </li>
+                   <li>
+                    <router-link class="text-dark" :to="{ name: 'Info' }">
+                            <a href="">PRENOTA</a>
+                    </router-link>
+                   </li>
+                  </ul>
+                 </div>
 
                     </div>
                 </nav>
@@ -315,5 +337,10 @@ export default {
 
 .womenprice{
     border: 1px solid grey;
+}
+
+.rominapower{
+  position: absolute;
+  left: -50px !important;
 }
 </style>
