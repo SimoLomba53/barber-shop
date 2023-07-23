@@ -88,7 +88,7 @@ export default {
              <p class="infohomedescription">
              Benvenuti nel nostro salone esclusivo, dove l'arte dell'hairstyling si fonde con trattamenti professionali per la pelle e il viso. Il nostri talentuosi barbieri sono maestri nell'arte del taglio di capelli con decorazioni creative, e sono capaci di creare look personalizzati che riflettono la vostra personalità. Inoltre, offriamo trattamenti per la pelle di alta qualità, utilizzando prodotti e tecniche all'avanguardia per un risultato impeccabile. Il nostro ambiente accogliente e rilassante vi farà sentire a vostro agio, mentre i nostri professionisti si prenderanno cura di voi con professionalità e attenzione. Ogni visita al nostro salone è un'esperienza indulgente, dove potrete rilassarvi e prendervi cura del vostro aspetto con stile. Siamo qui per offrirvi un servizio eccellente che vi farà sentire e apparire al meglio, regalandovi un look impeccabile e una pelle radiosa.
              </p>
-             <img src="firma.png" alt="" style="width:250px;">
+             <img src="/firma.png" alt="" style="width:250px;">
             </div>
          </div>
        </section>
