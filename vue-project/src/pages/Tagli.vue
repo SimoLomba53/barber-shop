@@ -363,7 +363,7 @@ export default {
 }
 
 .jumbotagli h1{
-  font-size:clamp(80px,8vw,200px);
+  font-size:clamp(45px,8vw,200px);
 }
 
 .jumbotagli button{
