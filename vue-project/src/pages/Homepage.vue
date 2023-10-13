@@ -42,7 +42,7 @@ export default {
         <div class="parallax" :style="parallaxStyle"></div>
          <div class="content">
             <nav>
-              <div class="navbar d-flex flex-row align-items-center p-5">
+              <div class="navbar d-flex flex-row align-items-center p-sm-1 p-md-5">
                <div>
                   <router-link class="text-dark" :to="{ name: 'Homepage' }">
                       <img src="/barberlogowhite.png" alt="" style="width: 100px;">
@@ -380,7 +380,7 @@ export default {
 }
 
 .jumbohome h1{
-  font-size:clamp(80px,8vw,200px);
+  font-size:clamp(55px,8vw,200px);
 }
 
 .jumbohome button{
