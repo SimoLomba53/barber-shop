@@ -90,7 +90,7 @@ export default {
                 <div class="jumbohome text-center d-flex align-items-center justify-content-center">
                    <div class="d-flex flex-column align-items-center justify-content-center">
                       
-                    <h1>HASSAN BARBER SHOP</h1>
+                    <h1>BARBER SHOP</h1>
                     <router-link class="text-dark" :to="{ name: 'Info' }">
                       <button class="p-3">PRENOTA</button>
                     </router-link>
@@ -127,11 +127,11 @@ export default {
                 <p>Ma un luogo in cui sentirsi a casa.</p>
               </div>
               <img data-aos="fade-up"
-       data-aos-duration="3000" class="p-1 p-md-5" src="/home7.jpeg" alt="" style="width: 100%;">
+       data-aos-duration="3000" class="p-1 p-md-5" src="https://images.pexels.com/photos/2061820/pexels-photo-2061820.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" style="width: 100%;">
             </div>
             <div class="col-12 col-md-6">
               <img data-aos="fade-up"
-         data-aos-duration="3000" class="p-1 p-md-5" src="/home8.jpeg" alt="" style="width: 100%;">
+         data-aos-duration="3000" class="p-1 p-md-5" src="https://images.pexels.com/photos/2068672/pexels-photo-2068672.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" style="width: 100%;">
                <div data-aos="fade-up"
          data-aos-duration="3000" class="text-center cuthometext2">
                   <h2 class="secondhometitle">Non siamo solo un negozio</h2>
@@ -150,11 +150,11 @@ export default {
                   <p>Anni di esperienza e passione per il mestiere, sfiorano le lame con precisione millimetrica, trasformando ciocche ordinarie in opere di bellezza senza pari.</p>
                 </div>
                 <img data-aos="fade-up"
-         data-aos-duration="3000" class="p-1 p-md-5" src="/home3.jpeg" alt="" style="width: 100%;">
+         data-aos-duration="3000" class="p-1 p-md-5" src="https://images.pexels.com/photos/2014809/pexels-photo-2014809.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" style="width: 100%;">
               </div>
               <div class="col-12 col-md-6">
                 <img data-aos="fade-up"
-           data-aos-duration="3000" class="p-1 p-md-5" src="/home6.jpeg" alt="" style="width: 100%;">
+           data-aos-duration="3000" class="p-1 p-md-5" src="https://images.pexels.com/photos/2076932/pexels-photo-2076932.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" style="width: 100%;">
                  <div data-aos="fade-up"
            data-aos-duration="3000" class="text-center cuthometext2">
                     <h2 class="secondhometitle">La creatività prende forma</h2>
@@ -173,11 +173,11 @@ export default {
                   <p>Vogliamo regalarti momenti indimenticabili e far sì che tu ritorni sempre con un sorriso sulle labbra.</p>
                 </div>
                 <img data-aos="fade-up"
-         data-aos-duration="3000" class="p-1 p-md-5" src="/home2.jpeg" alt="" style="width: 100%;">
+         data-aos-duration="3000" class="p-1 p-md-5" src="https://images.pexels.com/photos/2076930/pexels-photo-2076930.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" style="width: 100%;">
               </div>
               <div class="col-12 col-md-6">
                 <img data-aos="fade-up"
-           data-aos-duration="3000" class="p-1 p-md-5" src="/home1.jpeg" alt="" style="width: 100%;">
+           data-aos-duration="3000" class="p-1 p-md-5" src="https://images.pexels.com/photos/1860567/pexels-photo-1860567.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" style="width: 100%;">
                  <div data-aos="fade-up"
            data-aos-duration="3000" class="text-center cuthometext2">
                     <h2 class="secondhometitle">Ogni dettaglio è fondamentale</h2>
@@ -196,11 +196,11 @@ export default {
                   <p>la fidelizzazione di una clientela affezionata è la prova della nostra maestria nel realizzare veri e propri capolavori su capelli.</p>
                 </div>
                 <img data-aos="fade-up"
-         data-aos-duration="3000" class="p-1 p-md-5" src="/home4.jpeg" alt="" style="width: 100%;">
+         data-aos-duration="3000" class="p-1 p-md-5" src="https://images.pexels.com/photos/3993294/pexels-photo-3993294.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" style="width: 100%;">
               </div>
               <div class="col-12 col-md-6">
                 <img data-aos="fade-up"
-           data-aos-duration="3000" class="p-1 p-md-5" src="/home5.jpeg" alt="" style="width: 100%;">
+           data-aos-duration="3000" class="p-1 p-md-5" src="https://images.pexels.com/photos/2318055/pexels-photo-2318055.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" style="width: 100%;">
                  <div data-aos="fade-up"
            data-aos-duration="3000" class="text-center cuthometext2">
                     <h2 class="secondhometitle">Non rinunciare a tutto questo.</h2>
@@ -217,7 +217,7 @@ export default {
             <div  class="col-12 offset-0 col-sm-10 offset-sm-1 text-center p-3 p-sm-5">
                <video class="video-player back-video"  preload="auto" autoplay="autoplay" loop muted playsinline>
                <source
-                src='/hassanvideo.mp4' 
+                src='/homevideocut.mp4' 
                 type="video/mp4"
               />
               </video>

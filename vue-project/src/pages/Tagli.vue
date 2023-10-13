@@ -117,73 +117,62 @@ export default {
               <div data-aos="fade-up"
              data-aos-duration="3000" class="col-12 justify-content-center align-items-center d-flex flex-column flex-sm-row gap-5 p-3 p-sm-5">
                  <div class="col-10 col-sm-5">
-                    <video class="video-player back-video"  preload="auto" autoplay="autoplay" loop muted playsinline style="width: 100%;">
+                    <!--<video class="video-player back-video"  preload="auto" autoplay="autoplay" loop muted playsinline style="width: 100%;">
                       <source src="/videotaglio1.mp4" type="video/mp4">
                       
                         
-                    </video>
+                    </video>-->
+                     <img src="https://blog.newoldman.com.br/wp-content/uploads/2021/09/Corte-de-Cabelo-Masculino-Primavera-Verao-Topete-com-Degrade-Para-2022-5.jpg" alt="" style="width: 100%;" >
                     
                  </div>
                  <div class="col-10 col-sm-5">
-                        <video  class="video-player back-video"  preload="auto" autoplay="autoplay" loop muted playsinline style="width: 100%;">
+                        <!--<video  class="video-player back-video"  preload="auto" autoplay="autoplay" loop muted playsinline style="width: 100%;">
                           <source src="/videotaglio2.mp4" type="video/mp4">
                       
                         
-                        </video>
+                        </video>-->
+                        <img src="https://blog.newoldman.com.br/wp-content/uploads/2021/09/Corte-de-Cabelo-Masculino-Primavera-Verao-Topete-com-Degrade-Para-2022-5.jpg" alt="" style="width: 100%;" >
+
                  </div>
               </div>
               <div data-aos="fade-up"
              data-aos-duration="3000" class="col-12 justify-content-center align-items-center d-flex flex-column flex-sm-row gap-5 p-3 p-sm-5">
                      <div class="col-10 col-sm-5">
-                        <video class="video-player back-video"  preload="auto" autoplay="autoplay" loop muted playsinline style="width: 100%;">
+                        <!--<video class="video-player back-video"  preload="auto" autoplay="autoplay" loop muted playsinline style="width: 100%;">
                           <source src="/videotaglio3.mp4" type="video/mp4">
                       
                         
-                        </video>
+                        </video>-->
+                         <img src="https://blog.newoldman.com.br/wp-content/uploads/2021/09/Corte-de-Cabelo-Masculino-Primavera-Verao-Topete-com-Degrade-Para-2022-5.jpg" alt="" style="width: 100%;" >
                      </div>
                      <div class="col-10 col-sm-5">
-                            <video class="video-player back-video"  preload="auto" autoplay="autoplay" loop muted playsinline style="width: 100%;">
-                              <source src="/videotaglio4.mp4" type="video/mp4">
-                      
-                        
-                            </video>
+                           
+                             <img src="https://blog.newoldman.com.br/wp-content/uploads/2021/09/Corte-de-Cabelo-Masculino-Primavera-Verao-Topete-com-Degrade-Para-2022-5.jpg" alt="" style="width: 100%;" >
                      </div>
                   </div>
                   <div data-aos="fade-up"
              data-aos-duration="3000" class="col-12 justify-content-center align-items-center d-flex flex-column flex-sm-row gap-5 p-3 p-sm-5">
                      <div class="col-10 col-sm-5">
-                        <video class="video-player back-video"  preload="auto" autoplay="autoplay" loop muted playsinline style="width: 100%;">
-                          <source src="/videotaglio5.mp4" type="video/mp4">
-                      
-                        
-                        </video>
+                       
+                         <img src="https://blog.newoldman.com.br/wp-content/uploads/2021/09/Corte-de-Cabelo-Masculino-Primavera-Verao-Topete-com-Degrade-Para-2022-5.jpg" alt="" style="width: 100%;" >
                      </div>
                      <div class="col-10 col-sm-5">
-                            <video class="video-player back-video"  preload="auto" autoplay="autoplay" loop muted playsinline style="width: 100%;">
-                              <source src="/videotaglio6.mp4" type="video/mp4">
-                      
-                        
-                            </video>
+                            
+                             <img src="https://blog.newoldman.com.br/wp-content/uploads/2021/09/Corte-de-Cabelo-Masculino-Primavera-Verao-Topete-com-Degrade-Para-2022-5.jpg" alt="" style="width: 100%;" >
                      </div>
                   </div>
                   <div data-aos="fade-up"
                  data-aos-duration="3000" class="col-12 justify-content-center align-items-center d-flex flex-column flex-sm-row gap-5 p-3 p-sm-5">
                          <div class="col-10 col-sm-5">
-                            <video class="video-player back-video"  preload="auto" autoplay="autoplay" loop muted playsinline style="width: 100%;">
-                              <source src="/videotaglio7.mp4" type="video/mp4">
-                      
-                        
-                            </video>
+                            
+                             <img src="https://blog.newoldman.com.br/wp-content/uploads/2021/09/Corte-de-Cabelo-Masculino-Primavera-Verao-Topete-com-Degrade-Para-2022-5.jpg" alt="" style="width: 100%;" >
                          </div>
                          <div class="col-10 col-sm-5">
-                                <video class="video-player back-video"  preload="auto" autoplay="autoplay" loop muted playsinline style="width: 100%;">
-                                  <source src="/videotaglio8.mp4" type="video/mp4">
-                      
-                        
-                                </video>
+                                
+                                 <img src="https://blog.newoldman.com.br/wp-content/uploads/2021/09/Corte-de-Cabelo-Masculino-Primavera-Verao-Topete-com-Degrade-Para-2022-5.jpg" alt="" style="width: 100%;" >
                          </div>
                       </div>
-                      <div data-aos="fade-up"
+                      <!--<div data-aos="fade-up"
                    data-aos-duration="3000" class="col-12 justify-content-center align-items-center d-flex flex-column flex-sm-row gap-5 p-3 p-sm-5">
                            <div class="col-10 col-sm-5">
                               <video class="video-player back-video"  preload="auto" autoplay="autoplay" loop muted playsinline style="width: 100%;">
@@ -216,7 +205,7 @@ export default {
                         
                                     </video>
                              </div>
-                          </div>
+                          </div>-->
            </section>
             <footer class="text-center text-lg-start bg-light text-muted">
       <!-- Section: Social media -->

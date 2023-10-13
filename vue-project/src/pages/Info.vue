@@ -95,7 +95,7 @@ export default {
            <section>
               <div class="datecontact d-flex flex-column p-5 justify-content-center text-center">
                 <div  data-aos="fade-up" data-aos-duration="1000" class="contactcontent">
-                <h1 class="">HASSAN BARBER SHOP</h1>
+                <h1 class="">BARBER SHOP</h1>
                 
                 <p class=""><img class="p-1" src="/houseiconwhite.png" alt="" style="width: 28px;">Via Nizza, 346, 10127 Torino TO</p>
                 <p class=""><img class="p-1" src="/phoneiconwhite.png" alt="" style="width: 28px;">388 306 5165</p>
@@ -103,7 +103,7 @@ export default {
                 <p class="">Lo shop è facilissimo da raggiungere sia in automobile che con i mezzi pubblici.</p>
                 <p class="">Si trova a 200 metri dalla fermata della metropolitana "Italia 61" e a 10 minuti a piedi dalla stazione ferroviaria Torino Lingotto.</p>
                 <p class="">In automobile dista solamente 10 minuti dal puro centro della citta di Torino.</p>
-                <p class="contactslogan">Dona nuova vita ai tuoi capelli da Hassan Barber Shop, dove ogni taglio è un capolavoro su misura! </p>
+                <p class="contactslogan">Dona nuova vita ai tuoi capelli da Barber Shop, dove ogni taglio è un capolavoro su misura! </p>
                 
                 </div>
              </div>          
@@ -149,10 +149,10 @@ export default {
             <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
               <!-- Content -->
               <h6 class="text-uppercase fw-bold mb-4">
-                <i class="fas fa-gem me-3"></i>Hassan Barber Shop
+                <i class="fas fa-gem me-3"></i>Barber Shop
               </h6>
               <p>
-                Dona nuova vita ai tuoi capelli da Hassan Barber Shop, dove ogni taglio è un capolavoro su misura!
+                Dona nuova vita ai tuoi capelli da Barber Shop, dove ogni taglio è un capolavoro su misura!
               </p>
             </div>
             <!-- Grid column -->
@@ -212,7 +212,7 @@ export default {
       <!-- Copyright -->
       <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
         © 2023 Copyright:
-        <a class="text-reset fw-bold" href="">Hassan Barber Shop</a>
+        <a class="text-reset fw-bold" href="">Barber Shop</a>
       </div>
       <!-- Copyright -->
     </footer>
