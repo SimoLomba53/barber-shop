@@ -380,7 +380,7 @@ export default {
 }
 
 .jumbohome h1{
-  font-size:clamp(55px,8vw,200px);
+  font-size:clamp(50px,8vw,200px);
 }
 
 .jumbohome button{
